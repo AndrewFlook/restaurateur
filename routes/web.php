@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-require __DIR__.'/ttnp.php';
+require __DIR__.'/restaurateur.php';
 require __DIR__.'/auth.php';
 
 Route::redirect('.env', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
