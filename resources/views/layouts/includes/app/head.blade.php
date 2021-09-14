@@ -1,0 +1,5 @@
+@include('layouts.includes.app.meta')
+@include('layouts.includes.app.title')
+@include('layouts.includes.app.fonts')
+@include('layouts.includes.app.styles')
+@include('layouts.includes.app.scripts')

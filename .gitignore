@@ -1,0 +1,17 @@
+/node_modules
+/public/css/fontawesome.css
+/public/hot
+/public/storage
+/public/webfonts
+/resources/css/fontawesome.css
+/storage/*.key
+/vendor
+.editorconfig
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
