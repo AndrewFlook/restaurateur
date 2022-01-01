@@ -1,14 +1,8 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  // mode: 'jit',
-  purge: [
-    './resources/**/*.blade.php',
-    './resources/**/**/*.blade.php',
-    './resources/**/**/**/*.blade.php',
-    './resources/**/**/**/**/*.blade.php',
-    './resources/**/**/**/**/**/*.blade.php',
-    './resources/**/*.js',
+  content: [
+    './resources/views/*.{blade.php,php,js,html}',
   ],
   darkMode: 'class', // 'false', 'media' or 'class'
   theme: {
@@ -46,14 +40,12 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {},
-  },
   plugins: [
     require(
       '@tailwindcss/forms',
       '@tailwindcss/typography',
-      '@tailwindcss/aspect-ratio'
+      '@tailwindcss/aspect-ratio',
+      '@tailwindcss/line-clamp'
     ),
   ],
 }
